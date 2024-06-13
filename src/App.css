@@ -13,8 +13,14 @@
   }
 }
 
+#dispositivo {
+  width: max-content;
+  /* height: 100vh; */
+  background-color: lightgoldenrodyellow;
+}
+
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,10 +34,65 @@
   color: #61dafb;
 }
 
+.botao {
+  width: 45%;
+  height: 100px;
+  border: black 1px solid;
+  font-size: 24pt;
+  color: white;
+}
+
+#visor1 {
+  background-color: #282c34;
+  width: 90%;
+  height: 75px;
+  border: #282c34 1px solid;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+#visor2 {
+  background-color: #282c34;
+  width: 90%;
+  height: 25px;
+  border: #282c34 1px solid;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+#botaoA {
+  background-color: red;
+}
+
+#botaoB {
+  background-color: blue;
+}
+
+#botaoC {
+  background-color: green;
+}
+
+#botaoD {
+  background-color: yellow;
+}
+
+#titulo {
+  color: black;
+  font-weight: bold;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
