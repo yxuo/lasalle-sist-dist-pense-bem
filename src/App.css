@@ -69,7 +69,7 @@
   border: #282c34 1px solid;
   border-radius: 10px;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: red;
   text-align: center;
@@ -80,11 +80,11 @@
 }
 
 #botaoB {
-  background-color: blue;
+  background-color: yellow;
 }
 
 #botaoC {
-  background-color: yellow;
+  background-color: blue;
 }
 
 #botaoD {
